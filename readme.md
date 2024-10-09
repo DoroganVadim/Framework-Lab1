@@ -30,7 +30,7 @@
         ![image1](./screenshots/1.3.5.png)
 
 ## Sarcina nr. 2. Crearea cererilor HTTP
-1. Scrieți o cerere de tip GET către server la adresa http://sandbox.com, indicând în antetul User-Agent numele și prenumele dvs. \
+1. Scrieți o cerere de tip GET către server la adresa http://sandbox.com, indicând în antetul User-Agent numele și prenumele dvs.
 
 GET / HTTP/1.1 \
 Host: sandbox.com \
@@ -73,3 +73,17 @@ DELETE /cars/2 HTTP/1.1 \
 Host: sandbox.com \
 User-Agent: Dorogan Vadim \
 Cererea delete este folosită pentru eliminarea unei resurse de pe server.
+
+## Sarcina nr. 3. Sarcina suplimentară. HTTP_Quest
+1. Trimiteți o cerere de tip POST către server la adresa http://sandbox.usm.md/quest, indicând în antetul User-Agent numele și prenumele dvs. (De exemplu, User-Agent: John Doe). http POST /quest HTTP/1.1 Host: sandbox.usm.md User-Agent: John Doe curl: bash curl -X POST http://sandbox.usm.md/quest -H "User-Agent: John Doe"
+
+2. Urmați instrucțiunile de pe server, îndeplinindu-le în ordine. \
+![image1](./screenshots/3.1.png) \
+![image1](./screenshots/3.2.png) \
+![image1](./screenshots/3.3.png) \
+![image1](./screenshots/3.4.png) \
+
+3. La finalul quest-ului, vi se va afișa un cuvânt secret, pe care va trebui să-l includeți în raport. \
+
+cuvantul secret: LSMdGQIoDUUaABAdCAxbfg==
+
